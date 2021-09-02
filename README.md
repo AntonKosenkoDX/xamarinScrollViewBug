@@ -1,5 +1,4 @@
-# xamarinScrollViewBug
-Xamarin.Forms ScrollView Layout bug
+### Xamarin.Forms ScrollView Layout bug
 
 How to reproduce:
 1. Build and run app targets on Android
