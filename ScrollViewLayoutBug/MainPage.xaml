@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScrollViewLayoutBug.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Entry/>
+            <Entry/>
+            <Entry/>
+            <Entry/>
+            <Entry/>
+            <Entry/>
+            <Entry/>
+            <Entry/>
+            <Entry/>
+            <Button Text="Click me!" Clicked="Button_Clicked"/>
+
+            <Entry x:Name="test1" IsVisible="False"/>
+            <Entry x:Name="test2" IsVisible="False"/>
+            <Entry x:Name="test3" IsVisible="False"/>
+            <Entry x:Name="test4" IsVisible="False"/>
+            <Entry x:Name="test5" IsVisible="False"/>
+            <Entry x:Name="test6" IsVisible="False"/>
+            <Entry x:Name="test7" IsVisible="False"/>
+            <Entry x:Name="test8" IsVisible="False"/>
+            <Entry x:Name="test9" IsVisible="False"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
